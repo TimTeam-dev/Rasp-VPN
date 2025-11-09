@@ -10,7 +10,7 @@
         <h1>Contourner le système, Ici naviguer sans contrainte !</h1>
     </header>
     <main>
-        <form action="" method="" class="form">
+        <form action="../backend/navigator.php" method="POST" class="form">
             <label for="query">Rechercher</label>
             <input type="text" id="query" name="query" placeholder="rechercher ici...">
             <input type="submit" id="post" name="post" value="rechercher">
